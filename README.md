@@ -6,6 +6,7 @@ The new version now also writs the data in an sql database instead of csv file b
 
 # Results
 ![menas_data](https://github.com/dermitdemk/Mensa_preise_scrapen/assets/60017842/e716032a-3efb-4b56-ad50-4a0a4d7e3647)
-Thies are the daily prices for the students, is the minimum, average and maximum price. In march the mense hand an almost daily "salattheke" which was charged per 100g. Thats why the prices starting in march are so low 
+Thies are the daily prices for the students, is the minimum, average and maximum price. In march the mense hand an almost daily "salattheke" which was charged per 100g. Thats why the prices starting in march are so low.
+
 
 visualization of the data was done thru grafan
