@@ -26,8 +26,8 @@ def preis_from_str_to_float(string):
     return float(str(string.replace(",",".")))
 
 def find_meals_of_today():
-    path_on_local = 'data/daten_of_menas_preise.csv'
-    path_on_server = '/home/erik/mensa_scrapen/data/daten_of_menas_preise.csv'
+    path_on_local = 'data/daten.csv'
+    path_on_server = '/home/erik/mensa_scrapen/data/daten.csv'
     mydb = mysql.connector.connect(host="//////////////",user="////////////",password="///////////",database="//////")
 
     menu_of_meals = soup.find_all('div', class_= 'row rowMealInner p-3 rounded')
