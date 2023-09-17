@@ -1,7 +1,9 @@
 # Mensa_preise_scrapen
 this is the code for a scraper of the Mensa of the uni Erfurt
-This is an scraper that automatically pulls the prices of the Mensa meals of this day. This is built to track the Mensa price and how many meals are vegan.
-The data is on year of tracking the prices, but was tracked by an old version of the scraper and has false value if the meal is vegan or not. The Mensa change the method of displaying it which the scraper dident noticed.
+
+
+This automatically pulls the prices of the Mensa meals of this day. This is built to track the Mensa price and how many meals are vegan.
+The data is on year of tracking the prices, but was tracked by an old version of the scraper and becaus of changes in the mensa webseit has false value if the meal is vegan or not. The Mensa change the method of displaying vegan meals which the scraper dident noticed.
 The new version now also writs the data in an sql database instead of csv file but the option to writ it in a file is still there.
 
 # Results
